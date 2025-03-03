@@ -727,10 +727,13 @@ img {
 .modal-input-container:hover {
   fill: #4d5ae5;
 }
-.modal-input-container:checked {
+.modal-input:checked {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
+}
+.modal-input:focus + .modal-icon {
+  fill: #4d5ae5;
 }
 .modal-svg {
   position: absolute;
