@@ -523,6 +523,11 @@ img {
 .icon {
   fill: #f4f4fd;
 }
+.footer-text-two {
+  margin-bottom: 16px;
+  font-weight: 500;
+  color: #ffffff;
+}
 .footer-form {
   display: flex;
   align-items: center;
@@ -727,11 +732,7 @@ img {
 .modal-input-container:hover {
   fill: #4d5ae5;
 }
-.modal-input:checked + span {
-  background-color: #404bbf;
-  border: none;
-  fill: #f4f4fd;
-}
+
 .modal-input:focus + .modal-icon {
   fill: #4d5ae5;
 }
@@ -823,7 +824,11 @@ textarea {
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+.custom-checkbox {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
+}
 .text-checkbox {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
