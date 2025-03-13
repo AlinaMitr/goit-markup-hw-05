@@ -919,3 +919,6 @@ textarea {
   bbox-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background-color: #404bbf;
 }
+.modal-icon: :focus {
+  fill: #4d5ae5;
+}
