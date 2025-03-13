@@ -716,7 +716,7 @@ img {
   border: 1px solid #4d5ae5;
 }
 
-.modal-input:focus + .modal-svg {
+.modal-input:focus + .modal-icon {
   fill: #4d5ae5;
 }
 
@@ -918,7 +918,4 @@ textarea {
 .modal-button:focus {
   bbox-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background-color: #404bbf;
-}
-.modal-icon: :focus {
-  fill: #4d5ae5;
 }
